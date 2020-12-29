@@ -79,6 +79,11 @@ header {
 
   // Extra small devices (portrait phones, less than 576px)
   @media (max-width: 575.98px) {
+    h1 {
+      font-size: 60px;
+      margin-top: -310px;
+    }
+
     .social-link {
       .btn {
         margin-top: 50px;

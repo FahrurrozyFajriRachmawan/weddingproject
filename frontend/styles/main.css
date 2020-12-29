@@ -77,6 +77,10 @@ header .social-link .btn:hover {
 }
 
 @media (max-width: 575.98px) {
+  header h1 {
+    font-size: 60px;
+    margin-top: -310px;
+  }
   header .social-link .btn {
     margin-top: 50px;
   }
