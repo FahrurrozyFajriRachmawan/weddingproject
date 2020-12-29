@@ -1,0 +1,457 @@
+body {
+  background-color: #fff;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar .text-logo {
+  font-family: Pristina, sans serif;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.navbar .nav-link {
+  font-family: 'Noto Serif', serif;
+  border: 2px #fff solid;
+}
+
+.navbar .nav-link:hover {
+  border-radius: 20px;
+  background-color: #fff;
+  color: #000;
+  border: 2px #000 solid;
+}
+
+.navbar .btn-navbar {
+  font-family: 'Noto Serif', serif;
+  -webkit-box-shadow: 0px 1px 5px 0px #000;
+          box-shadow: 0px 1px 5px 0px #000;
+  padding: 10px 25px;
+  background-color: transparent;
+  color: #000;
+  border: 2px #000 solid;
+  border-radius: 20px;
+  text-decoration: none;
+  opacity: .9;
+}
+
+.navbar .btn-navbar:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px #000 solid;
+}
+
+header {
+  height: 500px;
+}
+
+header img {
+  border-radius: 20px;
+  margin-top: 8px;
+  background-repeat: no-repeat;
+  height: 500px;
+  opacity: .7;
+  width: 100%;
+}
+
+header h1 {
+  font-family: 'Pacifico', cursive;
+  margin-top: -360px;
+  font-size: 90px;
+  color: #000;
+  opacity: .9;
+}
+
+header .social-link .btn {
+  margin-top: 140px;
+  font-size: 25px;
+  color: #000;
+  opacity: .9;
+}
+
+header .social-link .btn:hover {
+  color: #4a4949;
+}
+
+@media (max-width: 575.98px) {
+  header .social-link .btn {
+    margin-top: 50px;
+  }
+}
+
+.section-content-service {
+  padding-top: 120px;
+  margin-bottom: 120px;
+}
+
+.section-content-service img {
+  height: 100px;
+  width: 50%;
+}
+
+.section-content-service h1 {
+  font-family: 'Noto Serif', serif;
+  color: #000;
+}
+
+.section-content-service p {
+  font-family: 'Noto Serif', serif;
+  color: #000;
+}
+
+@media (max-width: 991.98px) {
+  .section-content-service h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-content-service h1 {
+    font-size: 35px;
+  }
+  .section-content-service img {
+    height: 120px;
+    width: 30%;
+  }
+}
+
+.section-content-about {
+  background-color: #4a4949;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border-radius: 20px;
+}
+
+.section-content-about h1 {
+  margin-top: 40px;
+  font-family: Pristina, sans serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.section-content-about p {
+  font-family: 'Noto Serif', serif;
+  font-size: 17px;
+  text-align: justify;
+  color: #fff;
+}
+
+.section-content-about img {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 15px 0px #fff;
+          box-shadow: 0px 1px 15px 0px #fff;
+  cursor: pointer;
+}
+
+.section-content-about img:hover {
+  -webkit-animation: shake 0.5s;
+          animation: shake 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-content-about h1 {
+    margin-top: -10px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-content-about img {
+    height: 320px;
+  }
+}
+
+.section-content-recent-wedding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-content-recent-wedding h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
+  color: #4a4949;
+}
+
+.section-content-recent-wedding img {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 10px 0px #4a4949;
+          box-shadow: 0px 5px 10px 0px #4a4949;
+  cursor: pointer;
+}
+
+.section-content-recent-wedding img:hover {
+  -webkit-animation: shake 0.5s;
+          animation: shake 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: translate(1px, 1px) rotate(0deg);
+            transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+            transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+            transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(3px, 2px) rotate(0deg);
+            transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+            transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+            transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+            transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    -webkit-transform: translate(3px, 1px) rotate(-1deg);
+            transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+            transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    -webkit-transform: translate(1px, 2px) rotate(0deg);
+            transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+            transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-content-recent-wedding h1 {
+    font-size: 40px;
+  }
+  .section-content-recent-wedding .img-1 {
+    max-width: 60% !important;
+  }
+  .section-content-recent-wedding .img-5 {
+    max-width: 40% !important;
+  }
+}
+
+.section-content-gallery {
+  padding-top: 10px;
+  padding-bottom: 120px;
+}
+
+.section-content-gallery h1 {
+  padding-top: 10px;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: bold;
+  color: #4a4949;
+}
+
+.section-content-gallery h2 {
+  font-family: Pristina, sans serif;
+}
+
+.section-content-gallery p {
+  font-family: 'Noto Serif', serif;
+}
+
+.section-content-gallery .card {
+  height: 100%;
+  -webkit-box-shadow: 0px 5px 10px 0px #4a4949;
+          box-shadow: 0px 5px 10px 0px #4a4949;
+  border-radius: 10px;
+}
+
+.section-content-gallery .card h3 {
+  font-size: 25px;
+  font-family: 'Noto Serif', serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.section-content-gallery .card p {
+  font-family: 'Noto Serif', serif;
+}
+
+@media (max-width: 991.98px) {
+  .section-content-gallery .card h3 {
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-content-gallery {
+    padding: 20px;
+  }
+  .section-content-gallery .card h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .section-content-gallery h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+  .section-content-gallery .card h3 {
+    font-size: 25px;
+  }
+}
+
+footer {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #4a4949;
+  color: #fff;
+  font-family: 'Noto Serif', serif;
+  padding-top: 45px;
+}
+
+footer h1 {
+  font-size: 32px;
+}
+
+footer .social-link .btn {
+  font-size: 30px;
+  color: #fff;
+  opacity: .9;
+}
+
+footer .social-link .btn:hover {
+  color: #000;
+}
+
+footer .btn-footer {
+  font-family: 'Noto Serif', serif;
+  -webkit-box-shadow: 0px 1px 5px 0px #000;
+          box-shadow: 0px 1px 5px 0px #000;
+  padding: 10px 25px;
+  background-color: #000;
+  color: #fff;
+  border: 2px #000 solid;
+  border-radius: 20px;
+  text-decoration: none;
+  opacity: .9;
+}
+
+footer .btn-footer:hover {
+  background-color: transparent;
+  color: #000;
+  border: 2px #000 solid;
+}
+/*# sourceMappingURL=main.css.map */
