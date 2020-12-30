@@ -50,7 +50,7 @@ body {
 }
 
 header {
-  height: 100vh;
+  height: 500px;
 }
 
 header img {
@@ -95,7 +95,7 @@ header .social-link .btn:hover {
 }
 
 .section-content-service {
-  padding-top: 20px;
+  padding-top: 120px;
   margin-bottom: 120px;
 }
 
@@ -122,7 +122,7 @@ header .social-link .btn:hover {
 
 @media (max-width: 767.98px) {
   .section-content-service {
-    padding-top: 0;
+    padding-top: 160px;
   }
   .section-content-service h1 {
     font-size: 35px;
