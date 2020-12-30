@@ -526,6 +526,10 @@ footer .btn-footer:hover {
   }
   footer h1 {
     padding-top: 40px;
+    font-size: 30px;
+  }
+  footer p {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=main.css.map */
