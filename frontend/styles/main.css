@@ -266,15 +266,27 @@ header .social-link .btn:hover {
 
 @media (max-width: 991.98px) {
   .section-content-about h1 {
-    margin-top: -10px;
+    margin-top: 10px;
+  }
+  .section-content-about p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-content-about {
+    padding-top: 90px;
   }
 }
 
 @media (max-width: 575.98px) {
   .section-content-about {
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 120px;
+  }
+  .section-content-about p {
+    font-size: 14px;
   }
   .section-content-about img {
     height: 320px;
