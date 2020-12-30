@@ -51,7 +51,7 @@ body {
 }
 
 header {
-  height: 500px;
+  height: 100vh;
 
   img {
     border-radius: 20px;
@@ -99,7 +99,7 @@ header {
 }
 
 .section-content-service {
-  padding-top: 120px;
+  padding-top: 20px;
   margin-bottom: 120px;
 
   img {
@@ -225,6 +225,10 @@ header {
 
   // Extra small devices (portrait phones, less than 576px)
   @media (max-width: 575.98px) {
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+
     img {
       height: 320px;
     }
@@ -331,6 +335,7 @@ header {
 
   h2 {
     font-family: 'Pristina', sans serif;
+    font-size: 40px;
   }
 
   p {
@@ -351,6 +356,34 @@ header {
 
     p {
       font-family: 'Noto Serif', serif;
+    }
+  }
+
+  .caption {
+    padding-top: 100px;
+
+    p {
+      font-family: 'Noto Serif', serif;
+      font-size: 22px;
+      color: #000;
+    }
+
+    .btn-gallery {
+      font-family: 'Noto Serif', serif;
+      box-shadow: 0px 1px 5px 0px #000;
+      padding: 10px 25px;
+      background-color: transparent;
+      color: #000;
+      border: 2px #000 solid;
+      border-radius: 20px;
+      text-decoration: none;
+      opacity: .9;
+
+      &:hover {
+        background-color: #000;
+        color: #fff;
+        border: 2px #000 solid;
+      }
     }
   }
 
@@ -378,6 +411,7 @@ header {
 
   // Extra small devices (portrait phones, less than 576px)
   @media (max-width: 575.98px) {
+    padding-bottom: 120px;
 
     h1 {
       letter-spacing: 2px;
@@ -431,6 +465,15 @@ footer {
       background-color: transparent;
       color: #000;
       border: 2px #000 solid;
+    }
+  }
+
+  // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575.98px) {
+    padding: 20px;
+
+    h1 {
+      padding-top: 40px;
     }
   }
 }

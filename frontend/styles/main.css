@@ -50,7 +50,7 @@ body {
 }
 
 header {
-  height: 500px;
+  height: 100vh;
 }
 
 header img {
@@ -92,7 +92,7 @@ header .social-link .btn:hover {
 }
 
 .section-content-service {
-  padding-top: 120px;
+  padding-top: 20px;
   margin-bottom: 120px;
 }
 
@@ -265,6 +265,11 @@ header .social-link .btn:hover {
 }
 
 @media (max-width: 575.98px) {
+  .section-content-about {
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
   .section-content-about img {
     height: 320px;
   }
@@ -371,6 +376,7 @@ header .social-link .btn:hover {
 
 .section-content-gallery h2 {
   font-family: 'Pristina', sans serif;
+  font-size: 40px;
 }
 
 .section-content-gallery p {
@@ -395,6 +401,35 @@ header .social-link .btn:hover {
   font-family: 'Noto Serif', serif;
 }
 
+.section-content-gallery .caption {
+  padding-top: 100px;
+}
+
+.section-content-gallery .caption p {
+  font-family: 'Noto Serif', serif;
+  font-size: 22px;
+  color: #000;
+}
+
+.section-content-gallery .caption .btn-gallery {
+  font-family: 'Noto Serif', serif;
+  -webkit-box-shadow: 0px 1px 5px 0px #000;
+          box-shadow: 0px 1px 5px 0px #000;
+  padding: 10px 25px;
+  background-color: transparent;
+  color: #000;
+  border: 2px #000 solid;
+  border-radius: 20px;
+  text-decoration: none;
+  opacity: .9;
+}
+
+.section-content-gallery .caption .btn-gallery:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px #000 solid;
+}
+
 @media (max-width: 991.98px) {
   .section-content-gallery .card h3 {
     font-size: 20px;
@@ -413,6 +448,9 @@ header .social-link .btn:hover {
 }
 
 @media (max-width: 575.98px) {
+  .section-content-gallery {
+    padding-bottom: 120px;
+  }
   .section-content-gallery h1 {
     letter-spacing: 2px;
     font-size: 40px;
@@ -462,5 +500,14 @@ footer .btn-footer:hover {
   background-color: transparent;
   color: #000;
   border: 2px #000 solid;
+}
+
+@media (max-width: 575.98px) {
+  footer {
+    padding: 20px;
+  }
+  footer h1 {
+    padding-top: 40px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
